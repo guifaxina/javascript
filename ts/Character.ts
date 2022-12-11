@@ -1,11 +1,11 @@
 
 export default class Character {
   constructor(
-    public name: string,
-    public health: number,
-    public attack: number
+    private name: string,
+    private health: number,
+    private attack: number
   ) {}
-
+ 
   showAtributtes(): void {
     console.log("Name: ", this.name)
     console.log("Health: ", this.health.toFixed(1))
