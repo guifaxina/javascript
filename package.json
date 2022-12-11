@@ -6,7 +6,7 @@
   "author": "Guilherme Faxina <gamerstarbr7@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx watch test.ts"
+    "dev": "tsx watch ts/Character.ts"
   },
   "dependencies": {
     "prompt-sync": "^4.2.0"
